@@ -16,9 +16,7 @@ body{
     padding-left: 70px;
     padding-top: 40px;
     margin-left: auto;
-    margin-right: 0;
-    
-    
+    margin-right: 0;   
 }
 
 .first-container-like {
@@ -49,7 +47,6 @@ body{
     background-color: #fbc02d;
     margin-left: auto;
     margin-right: 0;
-
 }
 
 
@@ -63,8 +60,6 @@ body{
     margin: auto;
     position: relative;
     top: -150px;
-    
-
 }
 
 .date {
@@ -75,9 +70,7 @@ body{
     text-align: left;
     text-transform: uppercase;
     margin-left: 70px;
-    margin-right: 70px;
-
-    
+    margin-right: 70px;  
 }
 
 .header {
@@ -91,7 +84,6 @@ body{
     text-transform: uppercase;
     margin-left: 70px;
     margin-right: 70px;
-
 }
 
 .header-italic {
@@ -102,7 +94,6 @@ body{
     text-align: justifyLeft;
     margin-left: 70px;
     margin-right: 70px;
-
 }
 
 .text {
@@ -114,7 +105,6 @@ body{
     text-align: justifyLeft;
     margin-left: 70px;
     margin-right: 70px;
-
 }
 
 .italic-text {
@@ -122,9 +112,9 @@ body{
     font-style: italic;
 }
 
-.boder {
+.border {
     border-left: 2px solid #8f8f8f;
-    height: 835px;
+    height: 845px;
     position: relative;
     top: -768px;
     
@@ -154,7 +144,7 @@ body{
     100% { opacity:1; }
 }
 
-.vvv{
+.two-containers{
     position: relative;
     z-index: 3;
 }
