@@ -8,8 +8,9 @@ body{
 }
 
 .first-container{
-    width: 814px;
-    height: 157px;
+    width: 100%;
+    max-width: 876px;
+    height: 186px;
     box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
     background-color: #181818;
     padding-left: 70px;
@@ -42,7 +43,8 @@ body{
 }
 
 .second-container {
-    width: 833px;
+    width: 100%;
+    max-width: 876px;
     height: 46px;
     background-color: #fbc02d;
     margin-left: auto;
@@ -52,8 +54,9 @@ body{
 
 
 .third-container {
-    width: 1060px;
-    height: 675px;
+    width: 100%;
+    max-width: 1060px;
+    height: 695px;
     background-color: #fff;
     padding-left: 100px;
     padding-top: 160px;
