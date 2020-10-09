@@ -1,6 +1,6 @@
 body{
-    width: 1400px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     background-color: #464f54;
     margin: 0;
     padding: 0;
@@ -14,10 +14,8 @@ body{
     background-color: #181818;
     padding-left: 70px;
     padding-top: 40px;
-    position: fixed;
-    top: 30px;
-    left: 310px;
-    z-index: 3;
+    margin-left: auto;
+    margin-right: 0;
     
     
 }
@@ -46,12 +44,9 @@ body{
 .second-container {
     width: 833px;
     height: 46px;
-    margin-left: 150px;
     background-color: #fbc02d;
-    position: fixed;
-    top: 227px;
-    left: 210px;
-    z-index: 2;
+    margin-left: auto;
+    margin-right: 0;
 
 }
 
@@ -63,10 +58,8 @@ body{
     padding-left: 100px;
     padding-top: 160px;
     margin: auto;
-    position: absolute;
-    top: 127px;
-    left: 0;
-    right: 0;
+    position: relative;
+    top: -150px;
     
 
 }
@@ -78,6 +71,7 @@ body{
     font-weight: 400;
     text-align: left;
     text-transform: uppercase;
+    margin-left: 40px;
 
     
 }
@@ -91,6 +85,7 @@ body{
     letter-spacing: normal;
     text-align: left;
     text-transform: uppercase;
+    margin-left: 40px;
 }
 
 .header-italic {
@@ -99,6 +94,7 @@ body{
     font-size: 30px;
     font-style: italic;
     text-align: justifyLeft;
+    margin-left: 40px;
 }
 
 .text {
@@ -108,6 +104,7 @@ body{
     font-weight: 400;
     line-height: 40.38px;
     text-align: justifyLeft;
+    margin-left: 40px;
 }
 
 .italic-text {
@@ -117,8 +114,11 @@ body{
 
 .boder {
     border-left: 2px solid #8f8f8f;
-    height: 655px;
-    padding-left: 60px;
+    height: 835px;
+    
+    position: relative;
+    top: -806px;
+    
     
 }
 
@@ -145,8 +145,10 @@ body{
     100% { opacity:1; }
 }
 
-
-    
+.vvv{
+    position: relative;
+    z-index: 3;
+}
 
 
 
