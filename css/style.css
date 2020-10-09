@@ -66,7 +66,7 @@ body{
     max-width: 1360px;
     height: 695px;
     background-color: #fff;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-top: 160px;
     margin: auto;
     position: relative;
@@ -81,7 +81,7 @@ body{
     text-align: left;
     letter-spacing: 5.28px;
     text-transform: uppercase;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 
 .header {
