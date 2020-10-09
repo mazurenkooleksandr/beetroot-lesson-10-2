@@ -1,7 +1,6 @@
 body{
     width: 100%;
-    max-width: 1200px;
-    height: 800px;
+    height: 100%;
     background-color: #464f54;
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@ body{
 
 .first-container{
     width: 100%;
-    max-width: 876px;
+    max-width: 1076px;
     height: 186px;
     box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
     background-color: #181818;
@@ -45,7 +44,7 @@ body{
 
 .second-container {
     width: 100%;
-    max-width: 876px;
+    max-width: 976px;
     height: 46px;
     background-color: #fbc02d;
     margin-left: auto;
@@ -56,7 +55,7 @@ body{
 
 .third-container {
     width: 100%;
-    max-width: 1060px;
+    max-width: 1360px;
     height: 695px;
     background-color: #fff;
     padding-left: 100px;
