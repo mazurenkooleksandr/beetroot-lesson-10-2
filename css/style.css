@@ -1,6 +1,6 @@
 body{
-    width: 1200px;
-    height: 900px;
+    width: 1400px;
+    height: 800px;
     background-color: #464f54;
     margin: 0;
     padding: 0;
@@ -14,36 +14,12 @@ body{
     background-color: #181818;
     padding-left: 70px;
     padding-top: 40px;
-    position: absolute;
+    position: fixed;
     top: 30px;
     left: 310px;
     z-index: 3;
     
     
-}
-
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
 }
 
 .first-container-like {
@@ -72,7 +48,7 @@ body{
     height: 46px;
     margin-left: 150px;
     background-color: #fbc02d;
-    position: absolute;
+    position: fixed;
     top: 227px;
     left: 210px;
     z-index: 2;
@@ -144,6 +120,29 @@ body{
     height: 655px;
     padding-left: 60px;
     
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 
