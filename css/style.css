@@ -1,0 +1,154 @@
+body{
+    width: 1200px;
+    height: 900px;
+    background-color: #464f54;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-container{
+    width: 814px;
+    height: 157px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    padding-left: 70px;
+    padding-top: 40px;
+    position: absolute;
+    top: 30px;
+    left: 310px;
+    z-index: 3;
+    
+    
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.first-container-like {
+    color: white;
+    border-bottom: 2px solid #767676;
+    height: 90px;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 94.03px;
+    text-align: left;
+}
+
+.first-container-title {
+    color: #767676;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.second-container {
+    width: 833px;
+    height: 46px;
+    margin-left: 150px;
+    background-color: #fbc02d;
+    position: absolute;
+    top: 227px;
+    left: 210px;
+    z-index: 2;
+
+}
+
+
+.third-container {
+    width: 1060px;
+    height: 675px;
+    background-color: #fff;
+    padding-left: 100px;
+    padding-top: 160px;
+    margin: auto;
+    position: absolute;
+    top: 127px;
+    left: 0;
+    right: 0;
+    
+
+}
+
+.date {
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+
+    
+}
+
+.header {
+    color: #2a2a2a;
+    font-family: "Futura PT - Heavy";
+    font-size: 78px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header-italic {
+    color: #8f8f8f;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justifyLeft;
+}
+
+.text {
+    color: #000000;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+    text-align: justifyLeft;
+}
+
+.italic-text {
+    font-family: "Georgia - Italic";
+    font-style: italic;
+}
+
+.boder {
+    border-left: 2px solid #8f8f8f;
+    height: 655px;
+    padding-left: 60px;
+    
+}
+
+
+    
+
+
+
+
