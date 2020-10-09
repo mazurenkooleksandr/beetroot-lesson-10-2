@@ -94,7 +94,7 @@ body{
     letter-spacing: 5.28px;
     text-transform: uppercase;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 130px;
 }
 
 .header-italic {
@@ -104,7 +104,7 @@ body{
     font-style: italic;
     text-align: justifyLeft;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 130px;
     margin-top: -70px;
 }
 
@@ -116,7 +116,7 @@ body{
     line-height: 40.38px;
     text-align: justifyLeft;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 130px;
     margin-top: 70px;
 }
 
