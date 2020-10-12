@@ -12,8 +12,6 @@ body{
     width: 100%;
     height: 100%;
     background-color: #464f54;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -158,6 +156,11 @@ body{
 .two-containers{
     position: relative;
     z-index: 3;
+}
+
+.wrapper {
+    padding: 150px 0;
+    margin: 0 auto;
 }
 
 
